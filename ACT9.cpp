@@ -7,4 +7,7 @@ class mahasiswa
     private:
     string nama;
     int NIM;
-}
+
+    public:
+    friend class dosen;
+};
