@@ -12,6 +12,9 @@ class mahasiswa
     public:
     string nama;
     int NIM;
-     void beriNilai(mahasiswa &a, float nilai);
+    void beriNilai(mahasiswa* m, float nilai)
+    {
+        m->nilai = nilai;
+    }
     friend class dosen;
 };
